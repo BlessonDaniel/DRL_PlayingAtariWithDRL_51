@@ -1,0 +1,25 @@
+A.L.E: Arcade Learning Environment (version 0.12.1+8a8fafb)
+[Powered by Stella]
+{"game": "Breakout", "out": "runs/breakout_cpu", "seed": 0, "steps": 500000, "frame_skip": 4, "crop_top": 18, "replay_size": 100000, "batch_size": 32, "gamma": 0.99, "lr": 0.00025, "eps_end": 0.1, "eps_anneal_steps": 100000, "learning_starts": 10000, "train_every": 4, "target_update": 0, "huber": false, "eval_every": 25000, "eval_steps": 10000, "eval_eps": 0.05, "holdout_states": 500, "threads": 1, "device": "cpu", "paper_scale": false, "n_actions": 4, "parameters": 677172, "torch": "2.14.1+cu130", "gymnasium": "1.4.0", "ale_py": "0.12.1"}
+step=0 | frames=0 | minutes=0.28 | epsilon=1.0 | games=0 | train_score_last10= | eval_score=0.61 | eval_games=70 | avg_max_q=-0.0021 | loss= | steps_per_sec=0.0
+step=25000 | frames=100000 | minutes=2.67 | epsilon=0.775 | games=141 | train_score_last10=1.6 | eval_score=10.56 | eval_games=16 | avg_max_q=1.7168 | loss=0.021833 | steps_per_sec=174.4
+step=50000 | frames=200000 | minutes=6.71 | epsilon=0.55 | games=270 | train_score_last10=1.0 | eval_score=0.49 | eval_games=72 | avg_max_q=1.57 | loss=0.021849 | steps_per_sec=103.1
+step=75000 | frames=300000 | minutes=11.24 | epsilon=0.325 | games=394 | train_score_last10=1.4 | eval_score=10.5 | eval_games=16 | avg_max_q=1.1806 | loss=0.020273 | steps_per_sec=92.1
+step=100000 | frames=400000 | minutes=15.58 | epsilon=0.1 | games=499 | train_score_last10=2.2 | eval_score=0.0 | eval_games=18 | avg_max_q=1.4939 | loss=0.018861 | steps_per_sec=96.0
+step=125000 | frames=500000 | minutes=20.3 | epsilon=0.1 | games=589 | train_score_last10=2.9 | eval_score=0.3 | eval_games=20 | avg_max_q=1.2967 | loss=0.017892 | steps_per_sec=88.2
+step=150000 | frames=600000 | minutes=28.27 | epsilon=0.1 | games=683 | train_score_last10=2.4 | eval_score=10.75 | eval_games=16 | avg_max_q=1.4946 | loss=0.018178 | steps_per_sec=52.3
+step=175000 | frames=700000 | minutes=35.3 | epsilon=0.1 | games=777 | train_score_last10=2.4 | eval_score=0.84 | eval_games=64 | avg_max_q=1.3953 | loss=0.016968 | steps_per_sec=59.2
+step=200000 | frames=800000 | minutes=40.12 | epsilon=0.1 | games=867 | train_score_last10=2.4 | eval_score=0.2 | eval_games=20 | avg_max_q=2.2286 | loss=0.016711 | steps_per_sec=86.5
+step=225000 | frames=900000 | minutes=44.95 | epsilon=0.1 | games=961 | train_score_last10=2.8 | eval_score=0.7 | eval_games=69 | avg_max_q=1.0558 | loss=0.015622 | steps_per_sec=86.3
+step=250000 | frames=1000000 | minutes=49.5 | epsilon=0.1 | games=1051 | train_score_last10=2.4 | eval_score=0.0 | eval_games=17 | avg_max_q=1.7866 | loss=0.013045 | steps_per_sec=91.6
+step=275000 | frames=1100000 | minutes=54.27 | epsilon=0.1 | games=1144 | train_score_last10=3.1 | eval_score=0.65 | eval_games=69 | avg_max_q=1.2084 | loss=0.011452 | steps_per_sec=87.3
+step=300000 | frames=1200000 | minutes=58.95 | epsilon=0.1 | games=1234 | train_score_last10=1.8 | eval_score=0.5 | eval_games=16 | avg_max_q=1.4784 | loss=0.009754 | steps_per_sec=89.0
+step=325000 | frames=1300000 | minutes=65.29 | epsilon=0.1 | games=1324 | train_score_last10=2.1 | eval_score=3.47 | eval_games=17 | avg_max_q=1.1176 | loss=0.008257 | steps_per_sec=65.8
+step=350000 | frames=1400000 | minutes=70.03 | epsilon=0.1 | games=1414 | train_score_last10=2.2 | eval_score=0.2 | eval_games=20 | avg_max_q=1.0855 | loss=0.006578 | steps_per_sec=87.9
+step=375000 | frames=1500000 | minutes=74.59 | epsilon=0.1 | games=1501 | train_score_last10=2.8 | eval_score=2.5 | eval_games=16 | avg_max_q=1.0908 | loss=0.006111 | steps_per_sec=91.3
+step=400000 | frames=1600000 | minutes=79.24 | epsilon=0.1 | games=1573 | train_score_last10=5.4 | eval_score=7.18 | eval_games=22 | avg_max_q=1.1145 | loss=0.005862 | steps_per_sec=89.6
+step=425000 | frames=1700000 | minutes=83.93 | epsilon=0.1 | games=1646 | train_score_last10=5.7 | eval_score=3.03 | eval_games=32 | avg_max_q=1.0648 | loss=0.005438 | steps_per_sec=89.0
+step=450000 | frames=1800000 | minutes=88.54 | epsilon=0.1 | games=1713 | train_score_last10=4.9 | eval_score=1.21 | eval_games=63 | avg_max_q=1.1907 | loss=0.005168 | steps_per_sec=90.3
+step=475000 | frames=1900000 | minutes=93.29 | epsilon=0.1 | games=1783 | train_score_last10=7.5 | eval_score=3.02 | eval_games=45 | avg_max_q=1.8195 | loss=0.004888 | steps_per_sec=87.8
+step=500000 | frames=2000000 | minutes=98.14 | epsilon=0.1 | games=1851 | train_score_last10=6.4 | eval_score=10.36 | eval_games=14 | avg_max_q=1.4727 | loss=0.004554 | steps_per_sec=85.9
+done: 500000 steps (2000000 frames), 122501 updates, best eval score 10.75, 98.1 min

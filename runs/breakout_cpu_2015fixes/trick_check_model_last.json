@@ -1,0 +1,31 @@
+{
+ "checkpoint": "model_last.pt",
+ "agent_scores": [
+  7.0,
+  7.0,
+  7.0,
+  7.0,
+  7.0,
+  5.0,
+  3.0,
+  7.0,
+  3.0,
+  7.0
+ ],
+ "agent_mean_score": 6.0,
+ "greedy_action_share": {
+  "NOOP": 0.0,
+  "FIRE": 0.173,
+  "RIGHT": 0.044,
+  "LEFT": 0.782
+ },
+ "max_q_min": 0.467,
+ "max_q_max": 0.653,
+ "max_q_std": 0.058,
+ "constant_policies": {
+  "NOOP": 0.75,
+  "FIRE": 1.05,
+  "RIGHT": 0.1,
+  "LEFT": 10.65
+ }
+}

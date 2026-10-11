@@ -1,0 +1,7 @@
+torch>=2.2
+gymnasium>=1.0
+ale-py>=0.10
+opencv-python-headless>=4.8
+numpy>=1.26
+matplotlib>=3.8
+pillow>=10.0
