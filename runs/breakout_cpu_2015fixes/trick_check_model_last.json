@@ -1,27 +1,27 @@
 {
  "checkpoint": "model_last.pt",
  "agent_scores": [
-  7.0,
-  7.0,
-  7.0,
-  7.0,
-  7.0,
-  5.0,
   3.0,
-  7.0,
+  2.0,
+  2.0,
   3.0,
-  7.0
+  3.0,
+  3.0,
+  2.0,
+  3.0,
+  2.0,
+  3.0
  ],
- "agent_mean_score": 6.0,
+ "agent_mean_score": 2.6,
  "greedy_action_share": {
   "NOOP": 0.0,
-  "FIRE": 0.173,
-  "RIGHT": 0.044,
-  "LEFT": 0.782
+  "FIRE": 0.42,
+  "RIGHT": 0.0,
+  "LEFT": 0.58
  },
- "max_q_min": 0.467,
- "max_q_max": 0.653,
- "max_q_std": 0.058,
+ "max_q_min": 0.56,
+ "max_q_max": 0.734,
+ "max_q_std": 0.052,
  "constant_policies": {
   "NOOP": 0.75,
   "FIRE": 1.05,

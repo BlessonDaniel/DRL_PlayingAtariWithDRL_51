@@ -1,9 +1,0 @@
-{
- "checkpoint": "model_best.pt",
- "games": 10,
- "states": 6286,
- "mean_game_score": 10.6,
- "mean_predicted_max_q": 1.45,
- "mean_realised_return": 0.68,
- "ratio": 2.1
-}

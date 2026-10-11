@@ -2,30 +2,30 @@
  "checkpoint": "model_last.pt",
  "eps": 0.05,
  "scores_all_games": [
-  7.0,
-  7.0,
-  7.0,
-  7.0,
-  5.0
+  3.0,
+  2.0,
+  2.0,
+  3.0,
+  3.0
  ],
- "score": 7.0,
- "agent_steps": 352,
+ "score": 3.0,
+ "agent_steps": 268,
  "frames_shown": [
   {
-   "step": 42,
+   "step": 32,
    "score": 0
   },
   {
-   "step": 145,
+   "step": 110,
    "score": 1
   },
   {
-   "step": 248,
+   "step": 188,
    "score": 2
   },
   {
-   "step": 351,
-   "score": 7
+   "step": 267,
+   "score": 3
   }
  ]
 }

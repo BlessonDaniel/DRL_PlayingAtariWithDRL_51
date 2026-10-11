@@ -1,9 +1,9 @@
 {
  "checkpoint": "model_last.pt",
  "games": 10,
- "states": 6356,
- "mean_game_score": 10.4,
- "mean_predicted_max_q": 0.961,
- "mean_realised_return": 0.689,
- "ratio": 1.4
+ "states": 6286,
+ "mean_game_score": 10.0,
+ "mean_predicted_max_q": 1.019,
+ "mean_realised_return": 0.681,
+ "ratio": 1.5
 }
